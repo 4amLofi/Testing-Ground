@@ -43,4 +43,6 @@ int main()
 {
     // Get tower height, and pass along to functionCalls().
     functionCalls(getTowerHeight());
+
+    return 0;
 }
