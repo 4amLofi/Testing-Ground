@@ -3,7 +3,7 @@
 
 constexpr bool isConstantEvaluated()
 {
-    return std::is_constant_evaluated()? true:false;
+    return std::is_constant_evaluated();
 }
 
 int main()
